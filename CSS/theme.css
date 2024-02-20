@@ -63,6 +63,17 @@ section h2 {
     color: inherit;
 
 }
+.title-default{
+    background-color: rgb(7, 216, 195);
+    color: rgb(255, 255, 255);
+    line-height: 4rem;
+    text-align: center;
+}
+.title-option{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 footer *{
     text-align: center;
 
