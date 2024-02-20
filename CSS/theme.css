@@ -10,6 +10,8 @@
     --border-radius: 2rem;
     --bgsection : rgb(255, 124, 9);
     --subtitle: uppercase;
+    --bgmain: rgba(167, 183,203);
+    --btn-default-color: rgba(123,45,67);
 
 }
 header>h1 {
@@ -38,6 +40,28 @@ section img {
 }
 section h2 {
     text-transform: var(--subtitle);
+    font-weight: 400;
+
+}
+.btns-default{
+    display: inline-block;
+    width: max-content;
+    background-color: rgb(175, 44, 142);
+    line-height: 2.5rem;
+    padding:  .4rem 1rem;
+    border-radius: var(--border-radius);
+    color: var(--bgsection);
+
+}
+.btn-option-success{
+    background-color: aquamarine;
+    color: var(--bgsection);
+
+}
+.btn-option-warning{
+    background-color: rgb(234, 29, 29);
+    color: inherit;
+
 }
 footer *{
     text-align: center;
