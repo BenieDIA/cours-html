@@ -57,7 +57,10 @@ section h2 {
     background-color: rgb(254, 255, 255);
     color: var(--bgsection);}
     
-    
+.btns-default:hover,
+.btn-option-warning:hover{
+    transition: all .2s ease-in-out;
+}
    
 .btns-default:hover,
 .btn-option-warning:hover
