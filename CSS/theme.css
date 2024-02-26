@@ -54,10 +54,21 @@ section h2 {
 
 }
 .btn-option-success{
-    background-color: aquamarine;
-    color: var(--bgsection);
+    background-color: rgb(254, 255, 255);
+    color: var(--bgsection);}
+    
+    
+   
+.btns-default:hover,
+.btn-option-warning:hover
+{
+    
+    filter:  brightness(.5) ;
 
-}
+    }
+
+
+
 .btn-option-warning{
     background-color: rgb(234, 29, 29);
     color: inherit;
