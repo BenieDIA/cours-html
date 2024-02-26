@@ -36,12 +36,27 @@ section {
     background-color: var(--bgsection);
 }
 section img {
+    filter: grayscale( 100%);
     width: 100%;
+    border-radius: var(--border-radius);
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0;
+}
+section:hover img{
+width: 115%;
+box-shadow: 0 0 1.9rem rgb(234, 29, 29);
+opacity: .9;
+filter: initial;
+cursor: pointer;
+transition: all 3s ease-in-out;
+rotate: 360deg;
 }
 section h2 {
     text-transform: var(--subtitle);
     font-weight: 400;
-
+    border-radius: 10rem;
+    width: 200;
 }
 .btns-default{
     display: inline-block;
